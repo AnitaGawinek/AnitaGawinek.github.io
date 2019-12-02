@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://glacial-inlet-75166.herokuapp.com/';
-  const trelloApiRoot = 'https://glacial-inlet-75166.herokuapp.com/';
+  const apiRoot = 'https://glacial-inlet-75166.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://glacial-inlet-75166.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
